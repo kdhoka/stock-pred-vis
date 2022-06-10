@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kritin Dhoka: ITP 216 - Final Project</title>
+    </head>
+    <body>
+        <h1>Kritin Dhoka: ITP 216 - Final Project</h1>
+        <h2>{{error}}</h2>
+        <h2>Stock Market Visualization</h2>
+        <form action="/action/visualize" method="POST">
+            <label for="index">Choose a stock to view:</label>
+            <select name="index" id="index">
+            {% for value in unique %}
+                <option value={{value[0]}}>{{value[0]}}</option>
+            {% endfor %}
+            </select>
+            <input type="submit" value="Go!">
+        </form>
+    </body>
+</html>

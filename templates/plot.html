@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kritin Dhoka: ITP 216 - Final Project</title>
+    </head>
+    <body>
+        <h1>Kritin Dhoka: ITP 216 - Final Project</h1>
+        <h2>{{error}}</h2>
+        <h2>Stock Market Visualization {{text}}</h2>
+        <img id="plot" src="data:image/jpeg;base64,{{img}}" alt="Plot {{text}}">
+        <form action="/action/project" method="POST">
+            <label for="project">Select which date you'd like to project to:</label>
+            <input type="date" id="project" name="project">
+            <input type="submit" value="Go!">
+        </form>
+        <form action="/action/go_home" method="POST">
+            <p><input type="submit" value="Return to Home Page"></p>
+        </form>
+    </body>
+</html>
