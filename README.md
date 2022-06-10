@@ -1,6 +1,8 @@
 # stock-pred-vis
 Small flask-based webapp in python and HTML with GET/POST endpoints based on stock data from kaggle. Visualizes existing stock data and sci-kit learn projections.
 
+kaggle dataset used: https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data
+
 Written in Python 3.10
 Required Packages: flask, pandas, numpy, sqlite3, matplotlib, sklearn
 
