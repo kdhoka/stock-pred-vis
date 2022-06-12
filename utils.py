@@ -1,6 +1,3 @@
-# Kritin Dhoka
-# Spring 2022 - ITP 216
-# Final Project
 # util file containing all processing functions necessary to produce data and visuals on webapp
 
 import pandas as pd

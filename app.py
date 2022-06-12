@@ -1,6 +1,3 @@
-# Kritin Dhoka
-# Spring 2022 - ITP 216
-# Final Project
 # Main webapp file, holds all rendering of templates and execution of webpage main
 from datetime import datetime
 from flask import Flask, redirect, render_template, request, session, url_for
